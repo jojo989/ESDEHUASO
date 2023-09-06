@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/pusab" rel="stylesheet">
+                
+      
+<head>
+</head>
+<body>
+  <div>
+    <h1 id="h1">FALTAN <span id="days"></span> DIAS PARA EL 18 MI GANCHO #ESDEHUASO</h1>
+    <h2 HOLA ></h2>
+    <div id="cuenta"></div>
+  </div>
+</body>
+<img src="https://cdn.discordapp.com/attachments/1051637242730389504/1148787397417504881/img-2023-09-05-20-43-301.png">
+
+
+<script>
+
+var now = new Date();
+var targetDate = new Date("2023-09-18T09:00:00Z");
+
+var daysLeft = Math.floor((targetDate - now) / (1000 * 60 * 60 * 24));
+
+var daysLeftElement = document.getElementById("days");
+daysLeftElement.innerHTML = daysLeft;
+
+
+
+var cuenta = document.getElementById("cuenta");
+cuenta.appendChild(video);
+
+var h1 = document.getElementById("h1");
+
+if (daysLeft <= 0) {
+  h1.innerHTML = "YA ES EL 18 MIERDA! A DISFRUTAR GANCHO";
+}
+</script>
+</html>
